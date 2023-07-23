@@ -14,3 +14,4 @@ https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md
 ```
 python aiet2.py
 ```
+Start talking when you see `Say your questions, press any KEY to stop capturing audio.`, and press any key to stop.
