@@ -20,7 +20,7 @@ gpt_model = "gpt-3.5-turbo"
 tts_model = "tts_models/en/jenny/jenny"
 
 
-gpt_api_key = "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"
+gpt_api_key = ""
 
 # scenario 
 sys_prompt = """Please keep in mind for the following:
