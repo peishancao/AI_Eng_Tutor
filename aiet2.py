@@ -14,9 +14,11 @@ from pynput.keyboard import Key, Listener
 
 device=("cuda" if torch.cuda.is_available() else "cpu")
 
-
-whisper_model="medium"  # base.en
+# tiny, base, small, medium, large, large-v2 (medium and smaller has english only model ex. base.en)
+whisper_model="medium"
+# see gpt_model_list.json for chatgpt models
 gpt_model = "gpt-3.5-turbo"
+# see tts_test.py for list of english models supported by coqui-ai/TTS 
 tts_model = "tts_models/en/jenny/jenny"
 
 
