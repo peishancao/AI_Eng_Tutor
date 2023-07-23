@@ -14,7 +14,7 @@ use_api_key = True
 access_token = ""
 # get api key: https://platform.openai.com/account/api-keys
 # api_key = ""
-api_key = "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"
+api_key = ""
 
 # Choose a model, see model list in "model_list.json"
 gpt_model = "gpt-3.5-turbo"
